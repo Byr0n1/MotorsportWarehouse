@@ -10,7 +10,7 @@ import java.io.Serializable;
  */
 @Embeddable
 public class Account implements Serializable {
-
+    @Id
     private int accNum;
     private String status;
     private double balance;
